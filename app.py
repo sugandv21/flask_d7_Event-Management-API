@@ -82,4 +82,5 @@ api.add_resource(EventListResource, "/events", endpoint="events")
 api.add_resource(EventResource, "/events/<int:id>", endpoint="event")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
